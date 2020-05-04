@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Starjout';
+    src: url('../../Fonts/Fontin-SmallCaps.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.card-wrapper {
+    display: block;
+    position: relative;
+}
+
+.card-art {
+    display: block;
+    position: absolute;
+    top: 56px;
+    left: 26px;
+}
+
+.card-frame {
+    position: inherit;
+}
+
+.card-header {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-item {
+    position: absolute;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    bottom: 35%;
+}
+
+.card-text {
+    display: flex;
+    position: absolute;
+    top: 452px;
+    font-size: 16px;
+    color: #af6025;
+    justify-content: center;
+    font-style: italic;
+    width: 100%;
+}
+
+.inner-text {
+    width: 80%;
+    margin: 10px;
+}
+
+.card-amount {
+    display: flex;
+    position: absolute;
+    top: 47.5%;
+    font-size: 16px;
+    justify-content: left;
+    align-items: center;
+    left: 17%;
+    color: #ffffff;
+}

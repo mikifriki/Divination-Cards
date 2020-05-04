@@ -1,0 +1,26 @@
+.get-all {
+    margin-left: 20px;
+    position: absolute;
+    background-color: #325E4D;
+    border: none;
+    padding: 2px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+}
+
+.get-all:active {
+    background-color: #2D543A;
+}
+
+.filter {
+    color: #ffffff;
+    margin: 20px;
+}
+
+input {
+    width: 10%;
+}

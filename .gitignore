@@ -1,0 +1,8 @@
+/node_modules
+package-lock.json
+.idea/.gitignore
+.idea/misc.xml
+.idea/modules.xml
+.idea/react_express_starter.iml
+.idea/vcs.xml
+.idea/watcherTasks.xml

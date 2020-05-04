@@ -1,0 +1,7 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Starjout, Verdana, Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Starjout';
+    src: url('../../Fonts/Fontin-SmallCaps.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cards {
+    background: #1D1B1B;
+}
+
