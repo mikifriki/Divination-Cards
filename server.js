@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
 const adapter = new FileSync('db.json')
@@ -19,6 +20,11 @@ const getPaginatedData = (req, res) => {
 	});
 }
 
+app.use(express.static(path.join(__dirname, 'build')))
+
+app.get('/', (req, res) => {
+	res.sendFile(path.join(__dirname, 'build', 'index.html'))
+})
 app.get('/api/cards/all', function (req, res) {
 	res.json(db.read());
 })
