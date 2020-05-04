@@ -9,10 +9,13 @@ The front-end of this is made with React.js
 npm install ... npm run client-install respectively
 
 # Start project with
-To start the server and client use :
->npm run start,
+To start the server and client use:
+>npm run start-all
 
-To r
+To start both in Development mode run:
+>npm run start dev
+
+See the root package.json for more scripts.
 ## Built With
 
 * [Node.js](https://nodejs.org/en/) - Used as the base for the server.
