@@ -1,5 +1,5 @@
 # Path of Exile divination cards API
-
+![Image](https://i.imgur.com/OXFjISA.png)
 ### Short intro
 This is an API I made with node for getting all the data of current Path of Exile divination cards
 into one convenient place without extra fluff and to show off the beautiful art style of the cards.

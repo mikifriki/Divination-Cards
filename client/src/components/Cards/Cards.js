@@ -4,7 +4,7 @@ import "./Cards.css"
 
 const Cards = ({cards}) => {
 	return (
-		<div className="flex-container">
+		<div className="flex-cards">
 			{
 				cards.map(card =>
 					<Card id={card.id}

@@ -5,7 +5,7 @@
 }
 
 .App-header {
-    background-color: rgb(41 71 68);
+    background-color: rgba(41, 71, 68, 0.2);
     padding: 20px;
     color: white;
 }

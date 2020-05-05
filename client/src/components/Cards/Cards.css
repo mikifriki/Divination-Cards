@@ -1,7 +1,7 @@
-.flex-container {
+.flex-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     font-family: Starjout, Verdana, Arial, Helvetica, sans-serif;
 }

@@ -25,7 +25,7 @@
     position: absolute;
     top: 15px;
     width: 100%;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 44px;
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    font-size: 20px;
+    font-size: 1.25rem;
     bottom: 35%;
 }
 
@@ -45,7 +45,7 @@
     display: flex;
     position: absolute;
     top: 452px;
-    font-size: 16px;
+    font-size: 1rem;
     color: #af6025;
     justify-content: center;
     font-style: italic;
@@ -61,7 +61,7 @@
     display: flex;
     position: absolute;
     top: 47.5%;
-    font-size: 16px;
+    font-size: 1rem;
     justify-content: left;
     align-items: center;
     left: 17%;

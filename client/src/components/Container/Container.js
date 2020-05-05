@@ -64,7 +64,7 @@ const Container = () => {
 	}
 	const cardsToShow = filter ? cards.allCards.filter(card => card.name.toLowerCase().search(filter.toLowerCase()) !== -1) : cards.allCards;
 	return (
-		<div className="cards">
+		<div className="container">
 			<Filter onClick={getAllCards} onChange={onFilterChange}/>
 			<Cards cards={cardsToShow}/>
 		</div>
