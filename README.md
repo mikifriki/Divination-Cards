@@ -6,7 +6,10 @@ into one convenient place without extra fluff and to show off the beautiful art 
 The front-end of this is made with React.js
 
 # Install dependencies for server and client with
-npm install ... npm run client-install respectively
+```
+npm install
+npm run client-install respectively
+```
 
 # Start project with
 To start the server and client use:
@@ -15,7 +18,15 @@ To start the server and client use:
 To start both in Development mode run:
 >npm run start dev
 
-See the root package.json for more scripts.
+# API endpoints
+By default the linked website leads to the front-end I built with with React so showcase the Api.
+
+Going to [/api/cards/all](https://divination-cards.herokuapp.com/api/cards/all) shows all the cards that are currently in the API.
+
+Going to [/api/cards](https://divination-cards.herokuapp.com/api/cards) shows the first 20 cards by default.
+Changing it to [/api/cards?page=1&size=12](https://divination-cards.herokuapp.com/api/cards?page=1&size=12) paginates the data and allows you to change how many items are shown per page.
+
+And to go to a specific card id there is /api/cards/:id (replace :id with desired number)
 ## Built With
 
 * [Node.js](https://nodejs.org/en/) - Used as the base for the server.
